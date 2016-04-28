@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="c426117.per.carriersimple.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    >
+
+    <TextView
+        android:id="@+id/main_nothing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="什么都没有(-｡-;)"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="gone"
+        />
+
+    <ListView
+        android:id="@+id/filenames_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </ListView>
+</LinearLayout>

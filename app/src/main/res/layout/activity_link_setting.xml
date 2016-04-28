@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="c426117.per.carriersimple.LinkSettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/hostimage_linksetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nolink"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/hostname_linksetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="无主机链接"
+            android:textColor="@color/icons"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/primary_text"
+                android:text="主机IP:"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                />
+            <EditText
+                android:id="@+id/ipedit_linksetting"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:hint="请输入IP"
+                android:paddingRight="10dp"
+                android:maxLines="1"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_settinglink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="链接"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:background="#fff"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
